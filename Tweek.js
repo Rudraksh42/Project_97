@@ -1,15 +1,14 @@
 // Your web app's Firebase configuration
 var firebaseConfig = {
-  apiKey: "AIzaSyDc4e2iXVbRBp3QNTty_DWgLTzqfVj1ah4",
-  authDomain: "kwiiter-7b8a7.firebaseapp.com",
-  databaseURL: "https://kwiiter-7b8a7-default-rtdb.firebaseio.com",
-  projectId: "kwiiter-7b8a7",
-  storageBucket: "kwiiter-7b8a7.appspot.com",
-  messagingSenderId: "805862591339",
-  appId: "1:805862591339:web:454e01873acef1146f1a2e"
-};
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+    apiKey: "AIzaSyBEdX71Pjh6fHLlPLN6YMXEZwRhjl6qe60",
+    authDomain: "tweek-4515e.firebaseapp.com",
+    projectId: "tweek-4515e",
+    storageBucket: "tweek-4515e.appspot.com",
+    messagingSenderId: "476958684064",
+    appId: "1:476958684064:web:fe50d8e2cb5e1e294b6ac5"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
 
       var UserName = localStorage.getItem("UserName");
       console.log(UserName);
