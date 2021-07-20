@@ -1,7 +1,9 @@
 // Your web app's Firebase configuration
-var firebaseConfig = {
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
     apiKey: "AIzaSyBEdX71Pjh6fHLlPLN6YMXEZwRhjl6qe60",
     authDomain: "tweek-4515e.firebaseapp.com",
+    databaseURL: "https://tweek-4515e-default-rtdb.firebaseio.com",
     projectId: "tweek-4515e",
     storageBucket: "tweek-4515e.appspot.com",
     messagingSenderId: "476958684064",
