@@ -44,7 +44,16 @@
   function Send()
   {
     
-  
+  if(document.getElementById("MSG").value ==""){
+    
+      document.getElementById("error").innerHTML = "Note: Empty message will not be accepted";
+      document.getElementById("send").value.style.display= "none";
+    }
+    else
+    if(document.getElementById("MSG").value !=="")
+    {
+      document.getElementById("send").value.visible = "";
+    }
     console.log("comming in send()");
     MSG = document.getElementById("MSG").value;
     firebase.database().ref(RoomName).push(
@@ -57,16 +66,6 @@
       });
     document.getElementById("MSG").value== "";
 
-    if(document.getElementById("MSG").value ==""){
-    
-      document.getElementById("error").innerHTML = "Note: Empty message will not be accepted";
-      document.getElementById("send").value.style.display= "none";
-    }
-    else
-    if(document.getElementById("MSG").value !=="")
-    {
-      document.getElementById("send").value.visible = "";
-    }
   }
   
   function Logout() 
