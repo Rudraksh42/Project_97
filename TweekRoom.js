@@ -60,7 +60,8 @@ var firebaseConfig = {
       document.getElementById("error").innerHTML = "Note: Empty message will not be accepted";
       document.getElementById("send").value.style.display= "none";
     }
-    else(document.getElementById("MSG").value !=="")
+    else
+    if(document.getElementById("MSG").value !=="")
     {
       document.getElementById("send").value.visible = "";
     }
